@@ -198,6 +198,11 @@
           "value": "datalayer/spark-k8s-init:2.2.0",
           "type": "textarea"
         },
+        "spark.kubernetes.docker.image.pullPolicy": {
+          "name": "spark.kubernetes.docker.image.pullPolicy",
+          "value": "Always",
+          "type": "textarea"
+        },
         "zeppelin.spark.importImplicit": {
           "name": "zeppelin.spark.importImplicit",
           "value": "true",
