@@ -563,26 +563,29 @@
     }
   },
   "interpreterBindings": {
-    "2E34T5B1T": [
-      "2D5CEVHJT",
-      "2D6TPEZ9C",
-      "2D2ZX24VB",
-      "2D4M7S9EB",
-      "2D2ZNGKDK"
-    ],
-    "2D1UAHBVM": [
-      "2D5CEVHJT",
-      "2D6TPEZ9C",
-      "2D2ZX24VB",
-      "2D4M7S9EB",
-      "2D2ZNGKDK"
-    ],
-    "2A94M5J1Z": [
-      "2D5CEVHJT",
-      "2D6TPEZ9C",
-      "2D2ZX24VB",
-      "2D4M7S9EB",
-      "2D2ZNGKDK"
+    "2E34T5B1T": [   
+      "2CBEJNFR7",
+      "2CCMX5R9J",
+      "2CA9YJVBZ",
+      "2CBRBCK1E",
+      "2CYTU4PR2",
+      "2D1AQW3VX"
+    ],                                      
+    "2D1UAHBVM": [    
+      "2CBEJNFR7",
+      "2CCMX5R9J",
+      "2CA9YJVBZ",
+      "2CBRBCK1E",
+      "2CYTU4PR2",
+      "2D1AQW3VX"
+    ],    
+    "2A94M5J1Z": [           
+      "2CBEJNFR7",
+      "2CCMX5R9J",
+      "2CA9YJVBZ",
+      "2CBRBCK1E",
+      "2CYTU4PR2",
+      "2D1AQW3VX"
     ]
   },
   "interpreterRepositories": [
@@ -606,7 +609,7 @@
     {
       "id": "local",
       "type": "default",
-      "url": "file:///home/datalayer/.m2/repository",
+      "url": "file:///root/.m2/repository",
       "releasePolicy": {
         "enabled": true,
         "updatePolicy": "daily",
