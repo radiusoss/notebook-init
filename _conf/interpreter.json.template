@@ -200,7 +200,7 @@
         },
         "spark.kubernetes.docker.image.pullPolicy": {
           "name": "spark.kubernetes.docker.image.pullPolicy",
-          "value": "Always",
+          "value": "IfNotPresent",
           "type": "textarea"
         },
         "zeppelin.spark.importImplicit": {
@@ -253,20 +253,15 @@
           "value": true,
           "type": "checkbox"
         },
-        "spark.kubernetes.driver.pod.name": {
-          "name": "spark.kubernetes.driver.pod.name",
-          "value": "SPARK_KUBERNETES_DRIVER_POD_NAME",
-          "type": "textarea"
-        },
         "zeppelin.spark.printREPLOutput": {
           "name": "zeppelin.spark.printREPLOutput",
           "value": "true",
           "type": "checkbox"
         },
-        "spark.executor.instances": {
+        "spark.dynamicAllocation.enabled": {
           "name": "spark.executor.instances",
-          "value": "3",
-          "type": "textarea"
+          "value": "true",
+          "type": "checkbox"
         },
         "spark.cores.max": {
           "name": "spark.cores.max",
@@ -285,12 +280,12 @@
         },
         "spark.app.name": {
           "name": "spark.app.name",
-          "value": "zeppelin-k8s-spark",
+          "value": "notebook-init",
           "type": "textarea"
         },
         "spark.submit.deployMode": {
           "name": "spark.submit.deployMode",
-          "value": "client",
+          "value": "cluster",
           "type": "textarea"
         },
         "zeppelin.spark.maxResult": {
@@ -315,7 +310,27 @@
         },
         "spark.shuffle.service.enabled": {
           "name": "spark.shuffle.service.enabled",
-          "value": "false",
+          "value": "true",
+          "type": "checkbox"
+        },
+        "spark.kubernetes.shuffle.labels": {
+          "name": "spark.kubernetes.shuffle.labels",
+          "value": "app=spark-shuffle-service,spark-version=2.2.0",
+          "type": "textarea"
+        },
+        "spark.kubernetes.shuffle.namespace": {
+          "name": "spark.kubernetes.shuffle.namespace",
+          "value": "default",
+          "type": "textarea"
+        },
+        "spark.local.dir": {
+          "name": "spark.local.dir",
+          "value": "/mnt/spark-local",
+          "type": "textarea"
+        },
+        "spark.kubernetes.node.selector.kuber-role": {
+          "name": "spark.kubernetes.node.selector.kuber-role",
+          "value": "worker",
           "type": "textarea"
         },
         "zeppelin.R.render.options": {
