@@ -259,9 +259,24 @@
           "type": "checkbox"
         },
         "spark.dynamicAllocation.enabled": {
-          "name": "spark.executor.instances",
+          "name": "spark.dynamicAllocation.enabled",
           "value": "true",
           "type": "checkbox"
+        },
+        "spark.dynamicAllocation.initialExecutors": {
+          "name": "spark.dynamicAllocation.initialExecutors",
+          "value": "1",
+          "type": "textarea"
+        },
+        "spark.dynamicAllocation.minExecutors": {
+          "name": "spark.dynamicAllocation.minExecutors",
+          "value": "1",
+          "type": "textarea"
+        },
+        "spark.dynamicAllocation.maxExecutors": {
+          "name": "spark.dynamicAllocation.maxExecutors",
+          "value": "10",
+          "type": "textarea"
         },
         "spark.cores.max": {
           "name": "spark.cores.max",
