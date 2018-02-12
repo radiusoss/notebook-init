@@ -1,0 +1,48 @@
+{
+  "paragraphs": [
+    {
+      "text": "%spark\n\nprintln(lr_table)",
+      "user": "eleonore1308.charles@gmail.com#google",
+      "dateUpdated": "2018-02-11 13:55:10.004",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala"
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": ""
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph__conf_1518353703830",
+      "id": "_conf_1518353703830",
+      "dateCreated": "2018-02-11 13:55:10.004",
+      "dateStarted": "2018-02-11 13:55:29.557",
+      "dateFinished": "2018-02-11 13:55:29.692",
+      "status": "ERROR",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "_conf",
+  "id": "_conf",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {
+    "2CBEJNFR7:shared_process": []
+  },
+  "config": {},
+  "info": {}
+}
