@@ -345,7 +345,12 @@
         },
         "spark.kubernetes.node.selector.kuber-role": {
           "name": "spark.kubernetes.node.selector.kuber-role",
-          "value": "worker",
+          "value": "node",
+          "type": "textarea"
+        },
+        "zeppelin.interpreter.connect.timeout": {
+          "name": "zeppelin.interpreter.connect.timeout",
+          "value": "60000",
           "type": "textarea"
         },
         "zeppelin.R.render.options": {
