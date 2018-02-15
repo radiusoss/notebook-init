@@ -17,10 +17,12 @@
 -->
 
 <configuration>
-
+  <property>
+    <name>zeppelin.server.context.path</name>
+    <value>/spitfire</value>
+  </property>
   <property>
     <name>zeppelin.interpreter.connect.timeout</name>
-    <value>300000</value>
+    <value>600000</value>
   </property>
-
 </configuration>
