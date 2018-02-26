@@ -283,6 +283,11 @@
           "value": "1",
           "type": "textarea"
         },
+        "spark.driver.memory": {
+          "name": "spark.driver.memory",
+          "value": "6g",
+          "type": "textarea"
+        },
         "spark.executor.memory": {
           "name": "spark.executor.memory",
           "value": "6g",
