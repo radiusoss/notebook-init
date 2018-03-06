@@ -310,7 +310,7 @@
         },
         "zeppelin.spark.maxResult": {
           "name": "zeppelin.spark.maxResult",
-          "value": "1000",
+          "value": "5000",
           "type": "textarea"
         },
         "master": {
