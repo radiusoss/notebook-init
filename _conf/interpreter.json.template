@@ -135,7 +135,7 @@
         },
         "zeppelin.interpreter.output.limit": {
           "name": "zeppelin.interpreter.output.limit",
-          "value": "512000",
+          "value": "102400",
           "type": "textarea"
         }
       },
@@ -220,7 +220,7 @@
         },
         "zeppelin.interpreter.output.limit": {
           "name": "zeppelin.interpreter.output.limit",
-          "value": "102400",
+          "value": "512000",
           "type": "textarea"
         },
         "zeppelin.dep.localrepo": {
