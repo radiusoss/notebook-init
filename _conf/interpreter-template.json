@@ -193,6 +193,21 @@
           "value": "100%",
           "type": "textarea"
         },
+        "PYSPARK_PYTHON": {
+          "name": "PYSPARK_PYTHON",
+          "value": "/usr/bin/python3",
+          "type": "textarea"
+        },
+        "zeppelin.pyspark.python": {
+          "name": "zeppelin.pyspark.python",
+          "value": "/usr/bin/python3",
+          "type": "textarea"
+        },
+        "zeppelin.python.useIPython": {
+          "name": "zeppelin.python.useIPython",
+          "value": true,
+          "type": "checkbox"
+        },
         "spark.kubernetes.initcontainer.docker.image": {
           "name": "spark.kubernetes.initcontainer.docker.image",
           "value": "datalayer/spark-k8s-init:2.2.0",
@@ -316,11 +331,6 @@
         "master": {
           "name": "master",
           "value": "k8s://https://kubernetes:443",
-          "type": "textarea"
-        },
-        "zeppelin.pyspark.python": {
-          "name": "zeppelin.pyspark.python",
-          "value": "python",
           "type": "textarea"
         },
         "args": {
