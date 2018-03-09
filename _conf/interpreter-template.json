@@ -509,7 +509,7 @@
       "properties": {
         "zeppelin.python": {
           "name": "zeppelin.python",
-          "value": "python",
+          "value": "/usr/bin/python3",
           "type": "string"
         },
         "zeppelin.python.maxResult": {
@@ -519,7 +519,7 @@
         },
         "zeppelin.python.useIPython": {
           "name": "zeppelin.python.useIPython",
-          "value": true,
+          "value": false,
           "type": "checkbox"
         },
         "zeppelin.ipython.launch.timeout": {
