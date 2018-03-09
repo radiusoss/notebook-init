@@ -205,7 +205,7 @@
         },
         "zeppelin.python.useIPython": {
           "name": "zeppelin.python.useIPython",
-          "value": true,
+          "value": false,
           "type": "checkbox"
         },
         "spark.kubernetes.initcontainer.docker.image": {
