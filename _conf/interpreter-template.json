@@ -450,7 +450,7 @@
         "host": "localhost",
         "port": 44541,
         "perNote": "shared",
-        "perUser": "scoped",
+        "perUser": "isolated",
         "isExistingProcess": false,
         "setPermission": false,
         "owners": [],
@@ -581,6 +581,8 @@
       "dependencies": [],
       "option": {
         "remote": true,
+        "perNote": "shared",
+        "perUser": "isolated",
         "port": -1,
         "isExistingProcess": false,
         "setPermission": false,
