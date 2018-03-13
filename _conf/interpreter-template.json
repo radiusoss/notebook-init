@@ -357,7 +357,7 @@
         },
         "args": {
           "name": "args",
-          "value": "",
+          "value": "-deprecation",
           "type": "textarea"
         },
         "spark.shuffle.service.enabled": {
