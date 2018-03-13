@@ -292,14 +292,19 @@
         },
         "spark.dynamicAllocation.maxExecutors": {
           "name": "spark.dynamicAllocation.maxExecutors",
-          "value": "100",
+          "value": "30",
           "type": "textarea"
         },
         "spark.dynamicAllocation.executorIdleTimeout": {
           "name": "spark.dynamicAllocation.executorIdleTimeout",
-          "value": "5m",
+          "value": "60s",
           "type": "textarea"
         },
+        "spark.dynamicAllocation.cachedExecutorIdleTimeout": {
+          "name": "spark.dynamicAllocation.cachedExecutorIdleTimeout",
+          "value": "5m",
+          "type": "textarea"
+        },        
         "spark.dynamicAllocation.schedulerBacklogTimeout": {
           "name": "spark.dynamicAllocation.schedulerBacklogTimeout",
           "value": "1s",
@@ -312,7 +317,7 @@
         },
         "spark.cores.max": {
           "name": "spark.cores.max",
-          "value": "1",
+          "value": "2",
           "type": "textarea"
         },
         "spark.driver.memory": {
