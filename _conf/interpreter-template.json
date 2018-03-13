@@ -302,7 +302,7 @@
         },
         "spark.dynamicAllocation.cachedExecutorIdleTimeout": {
           "name": "spark.dynamicAllocation.cachedExecutorIdleTimeout",
-          "value": "5m",
+          "value": "5h",
           "type": "textarea"
         },        
         "spark.dynamicAllocation.schedulerBacklogTimeout": {
